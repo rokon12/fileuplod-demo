@@ -15,7 +15,7 @@ This repository contains a simple demonstration of how to handle file uploads us
 1. Clone the repository: `git clone https://github.com/rokon12/fileuplod-demo.git`
 2. Navigate to the project directory: `cd fileuplod-demo`
 3. Configure your database credentials in `application.properties`
-4. Build and run the application: `./mvnw spring-boot:run`
+4. Build and run the application with Gradle: `./gradlew bootRun`
 
 ## Usage
 Send a POST request to `/files/upload` with a file attached to test the file upload.
